@@ -1,0 +1,117 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "launchMode": "fullscreen",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 90,
+    "keybindings": [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "ctrl+shift+left"
+        },
+        {
+            "id": "Terminal.SwapPaneRight",
+            "keys": "ctrl+shift+right"
+        },
+        {
+            "id": "Terminal.SwapPaneUp",
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "id": "Terminal.SwapPaneDown",
+            "keys": "ctrl+shift+down"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": {
+        "defaults": {
+            "cursorShape": "filledBox",
+            "font": {
+                "face": "Hack Nerd Font",
+                "size": 14
+            },
+            "historySize": 12000,
+            "intenseTextStyle": "bright",
+            "opacity": 95,
+            "padding": "8",
+            "scrollbarState": "visible",
+            "useAcrylic": false,
+            "startingDirectory": "%USERPROFILE%\\pythoncode"
+        },
+        "list": [
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
+                "font": {
+                    "face": "JetBrainsMono Nerd Font",
+                    "size": 14
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Terminal",
+                "opacity": 100,
+                "useAcrylic": false
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{f3338576-1f33-579d-84b0-9b28df75a696}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{80a2e47e-81df-5a80-87d9-8e6f6887073b}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 (2)",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{d2a44f27-b0c9-5948-abf3-f7f870e59459}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{3567bea9-55b5-5770-a53f-dc887ab69775}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": [],
+    "showTerminalTitleInTitlebar": true,
+    "themes": [],
+    "useAcrylicInTabRow": false
+}

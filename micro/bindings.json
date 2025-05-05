@@ -1,0 +1,11 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "AltCtrlDown": "SpawnMultiCursorDown",
+    "AltCtrlUp": "SpawnMultiCursorUp",
+    "Ctrl-p": "CommandMode",
+    "CtrlBackspace": "DeleteWordLeft",
+    "CtrlUnderscore": "lua:comment.comment",
+    "CtrlRightSq": "IndentLine",
+    "CtrlLeftSq": "OutdentLine",
+    "Ctrl-d": "SpawnMultiCursor"
+}
