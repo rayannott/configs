@@ -50,14 +50,14 @@ theme = Dracula
 
 keybind = alt+left=goto_split:left
 keybind = alt+right=goto_split:right
-keybind = alt+up=goto_split:up
-keybind = alt+down=goto_split:down
 
 keybind = alt+left=goto_split:left
-keybind = ctrl+shift+minus=new_split:down
-keybind = ctrl+shift+plus=new_split:right
+keybind = alt+shift+minus=new_split:down
+keybind = alt+shift+plus=new_split:right
 
-keybind = ctrl+shift+left=resize_split:left,30
-keybind = ctrl+shift+right=resize_split:right,30
+keybind = alt+shift+left=resize_split:left,40
+keybind = alt+shift+right=resize_split:right,40
 
 fullscreen = true
+
+keybind = ctrl+backspace=text:\x1b\x7f
