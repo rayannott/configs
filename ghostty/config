@@ -61,3 +61,5 @@ keybind = alt+shift+right=resize_split:right,40
 fullscreen = true
 
 keybind = ctrl+backspace=text:\x1b\x7f
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = performable:ctrl+v=paste_from_clipboard
